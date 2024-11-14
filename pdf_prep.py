@@ -15,7 +15,7 @@ pdfIn = open(original_pdf, 'rb')
 pdfFile = PdfFileReader(pdfIn)
 NumPages = pdfFile.getNumPages()
 
-page_marker = open('page_marker.pdf' ,'rb')
+page_marker = open('_page_marker.pdf' ,'rb')
 page_marker = PdfFileReader(page_marker)
 
 output = PdfFileWriter()
